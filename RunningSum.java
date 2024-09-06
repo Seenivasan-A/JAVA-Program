@@ -21,7 +21,7 @@ public class RunningSum {
         int n = sc.nextInt();
 
         int[] input = new int[n];
-        int[] output = new int[n];
+        
 
         for (int i = 0; i < n; i++) {
             input[i] = sc.nextInt();
