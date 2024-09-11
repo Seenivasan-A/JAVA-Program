@@ -7,11 +7,14 @@ public class CheckArr {
         int m = nums.length;
         if (n != m) {
             System.out.println("false");
-            return;
+        }
+        if(i>=n)
+        {
+            System.out.println("True");
         }
         if (arr[i] != nums[i]) {
             System.out.println("false");
-            return;
+            
 
         } else {
             System.out.println("True");
